@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ALiDiM - DH Training - Exercise 1</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>ALiDiM - DH Training</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+                
+         <!--This is our exercise for today’s session 
+         We will encode a text with a bulleted list 
+         of three items, called List
+         elemento (1)
+         Element (2)
+         élément (3) -->
+         
+         <!--           useful tags and attributes:
+               elements: <div>; <head>; <p>; <list>; <item>; 
+               attributes: xml:lang; rend           -->
+                  <div>
+                     <p>
+                     <list type="list" rend="bulleted">
+                     <item xml:lang="it" n="1">elemento</item>
+                     <item xml:lang="de" n="2">Element</item>
+                     <item xml:lang="fr" n="3">élément</item>
+                     </list>   
+                     </p>
+                  </div>
+      </body>
+   </text>
+</TEI>
